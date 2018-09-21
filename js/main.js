@@ -68,19 +68,155 @@
 // ||	//ONE SISDE MUST BE TRUE
 // !   //RETURNS THE OPPOSITE
 
-var userAge = prompt("How old are you?");
+// var userAge = prompt("How old are you?");
 
-if(userAge >= 21) {
-	console.log("You may enter");
-} else if(userAge > 18 && userAge < 21) {
-	console.log("You may enter, but you can't drink");
-} else {
-	console.log("You shall not pass!");
-}
-
-
+// if(userAge >= 21) {
+// 	console.log("You may enter");
+// } else if(userAge > 18 && userAge < 21) {
+// 	console.log("You may enter, but you can't drink");
+// } else {
+// 	console.log("You shall not pass!");
+// }
 
 
+// var testOne = "What kind of variable am I?"
+// ; //the answer should either be a declared variable or a string variable
+
+// var testTwo = 256; //number
+
+// var testThree = false; //boolean
+
+// var testFour = 'true'; //string 
+
+// var testFive = '128'; //string
+
+// var testSix = " "; //string
 
 
 
+// var testOne = "hello" + "there"; // string "hellothere"
+// ; 
+// var testTwo = '100' + 28;	// string 10028
+
+// var testThree = true + 3; 	// number 4 
+
+// var testFour = 'false' + 5; //string false5
+
+// var testFive = '128' - 3; // number 125
+
+// var testSix = "" * 9; // number 0
+
+// var testSeven = 'zero' - 1; // number NaN
+
+// var testEight = 'five'.length; // number 4
+
+// var testNine = 'five'[0] + 'ever'; // string fever
+
+// var testTen = 'a' > 'b'; // boolean false
+
+// var testEleven = 'number'.length < 7; //boolean true
+
+// var testTwelve = '12' == 12; //boolean true
+
+// var testThirteen = 'twelve' == 12; //boolean false
+
+// var testFourteen = '14' === 14;  //boolean false
+
+// var testFifteen =  'Hi there'[0] + 'open sesame'[2] + 'alohaora'[1] + 'eulalia'[4] + 'harkonnen'[4] +'BATMAN!'[6]; //string "Hello"
+
+
+// var string1 = "Hello, ";
+
+// var string2 = "my name is ";
+
+// var string3 = "Darrin Webster.";
+
+// var combinedStrings = string1 + string2 + string3;
+
+// console.log(combinedStrings);
+//Hello, my nam is Darrin Webster
+
+
+// var num1 = 8;
+
+// var num2 = 52;
+
+// var num3 = 60;
+
+// var combinedNumbers = num1 + num2 + num3;
+// console.log(combinedNumbers);
+
+//120
+
+
+// var mixedNum1 = 10;
+
+// var mixedString1 = "ten";
+
+// var mixedNum2 = "10";
+
+// var mixedConcatenation = mixedNum1 + mixedNum2 + mixedString1;
+
+// console.log(mixedConcatenation);
+//1010ten 
+
+
+
+
+// var num4 = 5;
+
+// var num5 = 0;
+
+// if(num4 > 1) {
+// 	console.log("Num4 is greatr than 1")
+// } else {
+// 	console.log("num4 is NOT greater than 1")
+// };
+// num4 is greater than 1
+
+
+// var num4 = 5;
+
+// var num5 = 0;
+
+// if (num4 < num5 || num4 === num5) {
+// 	console.log("If statement ran!");
+// } else if (num5 === "0" || true) {
+// 	console.log("Else if statement ran");
+// } else {
+// 	console.log("Else statetment ran");
+// };
+//Else statement ran
+
+
+// var num4 = 5
+
+// var num5 = 0
+
+// if (num4 > num5 && num4 === num5) {
+// 	console.log("If statement ran!");
+// } else if (num5 === "0" || true) {
+// 	console.log("Else Else statement ran");
+// } else {
+// 	console.log("Else statement ran");
+// }
+//Else statement ran
+
+// var string1 = "this is a string";
+
+// for(var i = 0; i < string1.length; i = i + 1) {
+// 	console.log(i, string1[i]);
+// }
+//15 this is a string
+
+var string2 = "coding";
+
+var total = 0;
+
+for(var i = 0; i < string2.length; i++) {
+	total = total + i;
+};
+
+console.log(total);
+
+//5
